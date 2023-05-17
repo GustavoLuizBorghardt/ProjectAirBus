@@ -1,0 +1,327 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+  <link rel="stylesheet" href="style.css">
+  <title>Airbus</title>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light super_nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./img/logo_air.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse menu_inter" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="empresa.html">EMPRESA</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active" aria-current="page" href="produtos.html">PRODUTOS & SERVIÇOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Contato.html">CONTATO</a>
+          </li>
+        </ul>
+        </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Digite sua busca"
+            aria-label="Digite sua pesquisa">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Início do Carrossel-->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <video class="video" playsinline autoplay muted loop src="./img/vd_airbus.mp4"></video>
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Pioneirismo aeroespacial sustentável para um <br> mundo seguro e unido</h5>
+            <p><a class="btn btn-secondary btn-video" href="empresa.html">Descubra mais</a></p>
+        </div>
+        <button class="video-control">
+          <span class="video-control-play">
+            <span class="video-control-symbol" aria-hidden="true">
+              <svg height="24" viewBox="0 0 48 48" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h48v48H0z" fill="none"></path>
+                <path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"
+                  fill="white"></path>
+              </svg>
+            </span>
+            <span class="video-control-label">Play</span>
+          </span>
+          <span class="video-control-pause">
+            <span class="video-control-symbol" aria-hidden="true">
+              <svg height="24" viewBox="0 0 48 48" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h48v48H0z" fill="none"></path>
+                <path
+                  d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-2 28h-4V16h4v16zm8 0h-4V16h4v16z"
+                  fill="white"></path>
+              </svg>
+            </span>
+            <span class="video-control-label">Pause</span>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <main>
+      <div class="container py-4">
+        <header class="pb-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+            <img class="azinho" src="./img/a_airbus.jpg" alt="">
+            <span class="fs-4 azinho_texto">Airbus Industry</span>
+          </a>
+        </header>
+
+        <div class="container-fluid mkt">
+          <div class="row">
+            <div class="col-lg-4 servicon">
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./img/servicon1.png">
+              <br><br>
+              <h2 class="fw-normal">Aviação Comercial</h2>
+              <p>Some representative placeholder content for the three columns of text below the carousel. This is the
+                first column.</p>
+              <p><a class="btn btn-secondary" href="produtos.html">Saiba mais</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 servicon">
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./img/servicon2.png">
+              <br><br>
+              <h2 class="fw-normal">Helicópteros</h2>
+              <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second
+                column.</p>
+              <p><a class="btn btn-secondary" href="produtos.html">Saiba mais</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 servicon">
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./img/servicon3.png">
+              <br><br>
+              <h2 class="fw-normal">Defesa Aérea</h2>
+              <p>And lastly this, the third column of representative placeholder content.</p>
+              <p><a class="btn btn-secondary" href="produtos.html">Saiba mais</a></p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+
+
+          <!-- START THE FEATURETTES -->
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">Ajudando as forças de resgate de elite a alcançar a
+                excelência operacional <br><span class="text-muted">Air Center Helicopters</span></h2><br>
+              <p class="lead">A Força Aérea dos EUA recrutou H225s da Air Center Helicopters para realizar treinamento
+                de Operações Especiais em operações de resgate offshore de elite - preparando-os para operações de
+                resgate reais no campo.</p><br><br>
+              <p><a class="btn btn-secondary" href="#">Consule Mais Informações &raquo;</a></p>
+              <br>
+              <p><a class="btn btn-secondary btn-contra" href="empresa.html">Conheça Mais Sobre Nossos Produtos & Serviços
+                  &raquo;</a></p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx- foto-feature"
+                width="500" height="500" src="./img/feature2.png">
+
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1">Inovação - Moldando o futuro da indústria aeroespacial!
+                Trazendo tecnologia limpa para o espaço aéreo <br><span class="text-muted">Conheça nosso Prejeto Emissão
+                  ZERO</span></h2><br><br>
+              <p class="lead">Na Airbus, acreditamos que o futuro do setor aeroespacial é autônomo, conectado e com
+                emissão zero. Colaboramos com nosso ecossistema de inovação e alavancamos nossas operações digitalizadas
+                para imaginar conceitos futuros que trarão essa visão à realidade.</p><br><br>
+              <p><a class="btn btn-secondary" href="empresa.html">Consule Mais Informações;</a></p>
+              <br>
+              <p><a class="btn btn-secondary btn-contra" href="#">Conheça Mais Sobre Nossos Produtos & Serviços
+                  &raquo;</a></p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto foto-feature2"
+                width="500" height="500" src="./img/feature22.png">
+
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">Fazendo do espaço um universo de possibilidades para todos
+                <br><span class="text-muted">Infra estrurutura no Espaço</span></h2><br><br>
+              <p class="lead">Na Airbus, nosso objetivo é melhorar a vida na Terra e além por meio de nossas tecnologias
+                espaciais de ponta. Vislumbramos um futuro em que nossa economia humana se expanda para além da órbita
+                da Terra e todos se beneficiem do valor do espaço. <br>
+                Fornemos sistemas confiáveis ​​que variam de componentes eletrônicos a plataformas completas de
+                retransmissão de telecomunicações, satélites e tecnologia para enviar naves espaciais para outros
+                planetas.</p><br><br>
+              <p><a class="btn btn-secondary" href="produtos.html">Consule Mais Informações &raquo;</a></p>
+              <br>
+              <p><a class="btn btn-secondary btn-contra" href="produtos.html">Conheça Mais Sobre Nossos Produtos & Serviços</a></p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto foto-feature"
+                width="500" height="500" src="./img/feature4.png">
+
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <!-- /END THE FEATURETTES -->
+
+
+        </div>
+
+
+
+        <!--Início das Notícias-->
+
+        <div class="container-fluid noticias">
+          <h1 id="texto_noticias">Confira as últimas notícias</h1>
+          <hr><br><br>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="./img/noticia01.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-text" style="color:rgb(43, 43, 43);">Airbus Helicopters entrega o primeiro ACH160 do
+                    mundo para um cliente brasileiro!</h4>
+                  <p class="card-text">A Airbus Helicopters entregou o primeiro ACH160 do mundo a um cliente no Brasil
+                    na véspera da 17ª edição da Conferência e
+                    Exposição Anual de Aviação Executiva da América Latina (LABACE) no aeroporto de Congonhas, São
+                    Paulo. O helicóptero será notavelmente
+                    o primeiro H160 a voar na América Latina.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="btn btn-secondary btn-contra" href="#">Leia o artigo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="./img/noticia02.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-text" style="color:rgb(43, 43, 43);">Imagens de satélite: protegendo o meio ambiente e
+                    ajudando apoiando a ajuda humanitária</h4>
+                  <p class="card-text">Todos os anos, a Airbus Foundation fornece imagens de satélite cobrindo dezenas
+                    de milhares de quilômetros
+                    quadrados em todo o mundo para apoiar seus parceiros envolvidos na ajuda humanitária e na proteção
+                    do meio ambiente
+                    à medida que o número de solicitações continua a crescer.</p>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="btn btn-secondary btn-contra" href="#">Leia o artigo</a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="./img/noticia03.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-text" style="color:rgb(43, 43, 43);">Como a Blue Condor acelerará os primeiros voos de
+                    teste movidos a hidrogênio Airbus</h4>
+                  <p class="card-text">O Blue Condor, lançado pela Airbus UpNext, está levando um planador modificado
+                    até
+                    33.000 pés – uma altitude extrema para uma aeronave que normalmente cruza abaixo de 10.000 pés –
+                    para analisar o impacto da combustão de hidrogênio nas propriedades do rastro.
+                    O resultado desta análise fornecerá informações</p>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="btn btn-secondary btn-contra" href="#">Leia o artigo</a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+<br><br>
+<!--Início do FOOTER--> 
+          <footer class="container-fluid" id="icon-grid">
+            <div class="row">
+              <div class="col-md-4 pe">
+                <h4 style="padding-left:20px;">Nossas Redes Sociais</h4><br>
+                  <h6><a href="#"><img src="./img/facebook_footer.png" alt="">FACEBOOK</a></h6>
+                  <h6><a href="#"><img src="./img/insta_footer.png" alt="">INSTAGRAM</a></h6>
+                  <h6><a href="#"><img src="./img/twitter_footer.png" alt="">TWITTER</a></h6>
+        
+              </div>
+
+              <div class="col-md-4 pe">
+                <h3>Links Importantes</h3><br>
+
+                <h5><a href="https://brand.airbus.com/en">Airbus Brand Center</a></h5>
+                <h5><a href="https://airbusworld.helicopters.airbus.com/web/guest/home#/home">Airbus para
+                    Helicópteros</a></h5>
+                <h5><a href="https://www.helibras.com.br/website/po/ref/home.html">Helibrás Brasil</a></h5>
+                <h5><a href="https://www.airbus-shop.com/en/">Nossa Loja</a></h5><br>
+              </div>
+
+              <div class="col-md-4 pe">
+                <h3>Endereço e contatos</h3>
+                <img class="icone_contato" src="./img/iconcontato.png" alt="">
+                <h6>Airbus Aircraft Factory
+                  Avenida Ayrton Senna, 2541
+                  Bairro - Elon Musk
+                  Califórnia - United States of America
+                  CEP: 22775-002
+                  Telefone: (21)2155-7883</h6>
+              </div>
+            </div>
+
+          </footer>
+          <div class="container-fluid final_foot">
+            <p class="text_final"> @ 2023 Airbus - Desenvolvedor: Gustavo Luiz Borghardt. @MegaDev. Todos os direitos
+              reservados.</p>
+          </div>
+</body>
+
+</html>
